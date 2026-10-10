@@ -1,0 +1,42 @@
+NZ EcoSim - put it on the web with GitHub Pages (free) and embed it in Google Sites
+=================================================================================
+This folder is the whole website: index.html plus the simulation's Python files.
+No build steps, no Actions, nothing to install.
+
+1. CREATE THE REPOSITORY
+   github.com -> top-right "+" -> New repository
+     Repository name:  nz-ecosim
+     Public            (free GitHub Pages needs a public repository)
+   -> Create repository
+
+2. UPLOAD THE FILES
+   On the new repository page click "uploading an existing file".
+   Open this folder, select ALL the files (Ctrl+A) and drag them into the browser.
+   -> Commit changes
+   (All files must sit at the top level of the repository, next to index.html.)
+
+3. TURN ON GITHUB PAGES
+   Settings -> Pages -> Build and deployment
+     Source:  Deploy from a branch
+     Branch:  main   /  (root)   -> Save
+   After 1-2 minutes the address appears at the top of that page:
+     https://YOUR-USERNAME.github.io/nz-ecosim/
+   Open it - the first load takes a little while (it downloads about 20 MB, then it's cached).
+
+4. EMBED IN GOOGLE SITES
+   In your Google Site: Insert -> Embed -> "By URL" -> paste the address above -> Insert.
+   Drag the corners to make it big (wide, roughly 16:10). Visitors click inside the
+   simulation to use the keyboard; the "Open full screen" link opens it in its own tab.
+
+UPDATING LATER
+   Upload the changed files again (same names) and commit - the site updates in a minute or two.
+
+IF YOU TRIED THE EARLIER VERSION
+   In Settings -> Pages make sure the Source is "Deploy from a branch" (not "GitHub Actions"),
+   and delete the .github folder from the repository (or start a fresh repository).
+
+GOOD TO KNOW
+   - Each visitor gets their own island; it is saved in their browser.
+   - Works best in Chrome, Edge, Firefox or Safari on a laptop or desktop.
+   - Python is loaded from the free jsDelivr CDN. If your school network blocks
+     cdn.jsdelivr.net, ask me for the "offline" pack: an extra pyodide folder you upload too.
