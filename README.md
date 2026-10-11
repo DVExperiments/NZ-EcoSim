@@ -7,12 +7,6 @@ with no land mammals.  Add species, land settlers, bend the physics, or leave it
 alone - and learn why things happen from clickable alerts.
 
 
-PUT IT ON THE WEB
------------------
-See HOSTING.txt: a free website (GitHub Pages) with a locked live island that keeps living
-long-term, plus an unlocked copy of the simulation that runs in any browser tab.
-
-
 HOW TO START (Windows)
 ----------------------
 1. Install Python 3 from https://www.python.org/downloads/
