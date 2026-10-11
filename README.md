@@ -1,7 +1,7 @@
 NZ ECOSIM
 =========
 A miniature island ecosystem that lives in a desktop window - an overly complex,
-overly realistic tamagotchi set in New Zealand.  The island starts as Aotearoa
+overly realistic virtual ecosystem set in New Zealand.  The island starts as Aotearoa
 before people: forest, wetlands, tussock high country, and birds that evolved
 with no land mammals.  Add species, land settlers, bend the physics, or leave it
 alone - and learn why things happen from clickable alerts.
