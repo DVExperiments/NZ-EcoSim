@@ -1,0 +1,46 @@
+{
+  "title": "NZ EcoSim",
+  "tagline": "Build an island. Watch an ecosystem change. Discover the consequences.",
+  "description": "NZ EcoSim is an interactive Aotearoa New Zealand island ecosystem simulator. Generate a unique landscape, introduce wildlife and people, and explore how predators, conservation, climate and human decisions reshape the natural world.",
+  "category": "Simulations",
+  "platform": "Python / Windows desktop",
+  "overview": [
+    "Begin with a procedurally generated island inspired by Aotearoa before human settlement. Choose a North or South Island setting and customise the terrain, forests, wetlands, mountains and rainfall. Then observe the world unfold, introduce species, or intervene directly.",
+    "Native birds, introduced predators, plants, soil life and marine ecosystems interact across the island. Species have different life histories, breeding patterns and ecological roles. Population crashes, predator pressure, habitat loss and conservation efforts can trigger wider changes that the simulation explains through alerts, charts and a live food web.",
+    "Human settlers form clans, build villages, gather resources, farm, fish, migrate and sometimes compete over land and food. Their choices can change habitat, spread introduced species and affect both wildlife and other settlements. Players can respond with predator traps, protected sanctuaries, habitat restoration and marine reserves.",
+    "Explore structured conservation lessons, follow individual creatures or clans, examine the island's ecological history and export classroom reports with charts and CSV data. Alternatively, leave the island running as an open-ended sandbox and see what emerges."
+  ],
+  "highlights": [
+    "Procedural island generator with North/South Island settings, terrain options and adjustable rainfall and forest cover",
+    "Native New Zealand wildlife, introduced predators, plants and soil organisms with simulated lifecycles and interactions",
+    "Dynamic food-web visualisation showing feeding relationships, predator impacts and ecological cascades",
+    "Human clans that settle, build, farm, fish, trade resources, migrate and sometimes go to war",
+    "Marine ecology with fish, plankton, shellfish, seals, penguins, overfishing and marine reserves",
+    "Conservation actions including predator traps, fenced sanctuaries, revegetation and pest removal",
+    "Five guided ecological challenges, with goals and end-of-lesson debriefs",
+    "Clickable alerts explaining ecological events, likely causes, possible responses and related Aotearoa context",
+    "Population charts, historical timelines, ecosystem-health summaries and extinction reports",
+    "Creature inspection, follow camera, zoomable maps, multiple ecological overlays and custom species creation",
+    "Exportable classroom reports in PDF and CSV formats, including event, population, death and food-web data",
+    "Automatic local saving and a limited catch-up simulation with a welcome-back report"
+  ],
+  "tags": [
+    "Aotearoa New Zealand",
+    "Ecosystem",
+    "Simulation",
+    "Conservation",
+    "Wildlife",
+    "Ecology",
+    "Education",
+    "Food Web",
+    "Procedural Generation",
+    "Native Species",
+    "Human Settlements",
+    "Python",
+    "Pygame",
+    "Desktop"
+  ],
+  "featured": false,
+  "visible": true,
+  "notice": "The README describes a Windows desktop application built with Python, Pygame and NumPy. Python is required to run the source version; a Windows executable can be built separately. Any GitHub Pages link may be a project website rather than a browser-playable version. This is a simplified interactive ecosystem model, not a validated predictor of real-world conservation outcomes."
+}
